@@ -1,0 +1,122 @@
+body {
+
+background-color: rgba(241, 241, 241, 0.829);
+
+
+
+}
+
+*{
+    margin: 0px
+}
+
+#logo {
+    float: left;
+    margin-bottom: 20px;
+margin-top: 25px;
+margin-left: 20px;
+
+}
+
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    width: 100%;
+    position: fixed;
+    background-image: url("../res/back projet.png");
+    height: 120px;
+    
+
+
+}
+
+.titles {
+display: inline;
+padding-left: 40px; 
+font-family: 'Open Sans', sans-serif; 
+font-size: 13px;
+text-decoration: none;
+padding-top: 17px;
+}
+
+
+.lt {
+display: flex;
+align-items: center;
+color: rgb(146, 146, 146)
+}
+
+.button {
+    padding-top: 17px;
+    padding-right: 80px;
+    
+}
+
+
+.ibutton {
+    
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 13px;
+    text-decoration: none;
+    padding-left:   27px;
+    padding-right:  27px;
+    padding-bottom: 10px;
+    padding-top:    10px;
+    border-radius: 5px
+}
+
+#get {
+margin-left: 13px;
+background-color: rgb(233, 93, 0);
+color: rgb(44, 44, 44) ;
+border:  rgb(94, 94, 94) 
+}
+
+.ibutton:hover {
+    box-shadow: 0px 5px 3px 0px rgba(207,207,207,1);
+    transform: translateY(-2px)
+}
+
+#get:hover {
+    box-shadow: 0px 5px 3px 0px rgb(94, 94, 94) ;
+}
+#t1:hover {
+color: rgb(233, 93, 0)
+}
+#t2:hover {
+color: rgb(233, 93, 0)
+}
+#t3:hover {
+ color: rgb(233, 93, 0)
+}
+#t4:hover {
+color: rgb(233, 93, 0);
+}
+.couleur {
+ background-image: url("../RES/fond.png");
+width: 100%;
+height:660px;
+}
+
+form{
+  position: relative;
+  top:150px;
+}
+
+
+.titles {
+  color: rgb(146, 146, 146);
+
+}
+.titles:hover{
+  text-decoration: none;
+}
+.form-group {
+width: 60%;
+background-color: white;
+border-radius: 5px;
+border: rgb(44, 44, 44) ;
+}
